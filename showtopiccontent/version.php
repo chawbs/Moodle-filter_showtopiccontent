@@ -24,11 +24,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2022102401;
+$plugin->version = 2022102403;
 $plugin->requires = 2019111800;
 $plugin->component = 'filter_showtopiccontent'; // Full name of the plugin (used for diagnostics)
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = 'v1.0-r1';
+$plugin->release = 'v1.0-r3';
 
 $plugin->dependencies = array(
     'mod_lesson' => 2019111800,                 // Written with this version, untested with others
